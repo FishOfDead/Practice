@@ -9,7 +9,7 @@ name: PoC - Slack Review Notification Injection (self-trigger)
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, edited]
 
 permissions:
   contents: read
